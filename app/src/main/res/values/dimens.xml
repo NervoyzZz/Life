@@ -1,0 +1,18 @@
+<!-- D. Nepryahin-->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="table_layout_mainact_padding">10dp</dimen>
+    <dimen name="tableRow_mainact_padding_bottom">5dp</dimen>
+    <dimen name="txtvInTableRow_padding_right">10dp</dimen>
+    <dimen name="txtv_text_size_mainact">18sp</dimen>
+    <dimen name="txtv_text_size_dialogact">15sp</dimen>
+    <dimen name="txtv_margin_bottom_dialogact">8dp</dimen>
+    <dimen name="Dialog_Activity_Margin">8dp</dimen>
+    
+    <dimen name="grdv_padding">1dp</dimen>
+    <dimen name="grdv_spacing">1dp</dimen>
+    <dimen name="grdv_width">10dp</dimen>
+</resources>

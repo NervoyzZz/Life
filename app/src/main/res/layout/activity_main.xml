@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- D. Nepryahin-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:padding="@dimen/table_layout_mainact_padding"
+        android:id="@+id/tbl_mainact">
+
+        <TableRow
+            style="@style/TableRow_mainact_Style">
+
+            <TextView
+                style = "@style/txtvInTableRow"
+                android:text="@string/txtv_Rows"/>
+            <EditText
+                style="@style/edtxtInTableRow"
+                android:id="@+id/edtxt_RowCount"
+                android:text="@string/edtxt_Rows"/>
+        </TableRow>
+        <TableRow
+            style="@style/TableRow_mainact_Style">
+
+            <TextView
+                style = "@style/txtvInTableRow"
+                android:text="@string/txtv_Columns"/>
+            <EditText
+                style="@style/edtxtInTableRow"
+                android:id="@+id/edtxt_ColumnCount"
+                android:text="@string/edtxt_Columns"/>
+        </TableRow>
+        <TableRow
+            style="@style/TableRow_mainact_Style">
+
+            <TextView
+                style = "@style/txtvInTableRow"
+                android:text="@string/txtv_Cells"/>
+            <EditText
+                style="@style/edtxtInTableRow"
+                android:id="@+id/edtxt_CellCount"
+                android:text="@string/edtxt_Cells"/>
+        </TableRow>
+        <TableRow
+            style="@style/TableRow_mainact_Style">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_Run"
+                android:text="@string/btn_Run"
+                android:textStyle="bold"
+                android:layout_span="2"
+                android:onClick="onbtnRunClick"
+                />
+        </TableRow>
+
+    </TableLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tbl_mainact"/>
+
+</RelativeLayout>

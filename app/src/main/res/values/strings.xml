@@ -1,0 +1,29 @@
+<!-- D. Nepryahin-->
+<resources>
+    <string name="app_name">Life</string>
+    
+    <string name="txtv_Rows">Rows:</string>
+    <string name="txtv_Columns">Columns:</string>
+    <string name="txtv_Cells">Cells:</string>
+    <string name="btn_Run">Run</string>
+    <string name="edtxt_Rows">15</string>
+    <string name="edtxt_Columns">15</string>
+    <string name="edtxt_Cells">50</string>
+
+    <string name="Error_Rows">Incorrect rows number: should be from 5 to 25.</string>
+    <string name="Error_Columns">Incorrect columns number: should be from 5 to 20.</string>
+    <string name="Error_Cells">Cells\' number\'s greater than size of grid</string>
+
+    <string name="btn_Ok_dialog">OK</string>
+    <string name="Lable_Error">Error</string>
+
+    <string name="btn_Repeat">Back</string>
+    <string name="menu_info_btn">Info</string>
+    <string name="txtv_Info_Dialog">" "This app\'s modeling cell\'s \"life\". If cell has 2 or 3 neighbours, then
+                                    it continues living, else it\'ll die. If free cell has 3 neighbours, then
+                                    it\'ll born again. \n
+                                    </string>
+    <string name="txtv_Info_Dialog_2">" "Developer: D. O. Nepryahin\n
+                                      Feedback: nervoidaz@yandex.ru
+                                    </string>
+</resources>

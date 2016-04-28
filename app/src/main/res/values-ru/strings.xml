@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- D. Nepryahin -->
+<resources>
+    <string name="app_name">Life</string>
+
+    <string name="txtv_Rows">Строки:</string>
+    <string name="txtv_Columns">Колонки:</string>
+    <string name="txtv_Cells">Клетки:</string>
+    <string name="btn_Run">Запуск</string>
+    <string name="edtxt_Rows">15</string>
+    <string name="edtxt_Columns">15</string>
+    <string name="edtxt_Cells">50</string>
+
+    <string name="Error_Rows">Неверное количество строк! Допустимо от 5 до 25.</string>
+    <string name="Error_Columns">Неверное количество столбцов! Допустимо от 5 до 20.</string>
+    <string name="Error_Cells">Клеток больше, чем размер поля!</string>
+
+    <string name="btn_Ok_dialog">OK</string>
+    <string name="Lable_Error">Ошибка</string>
+
+    <string name="btn_Repeat">Назад</string>
+    <string name="menu_info_btn">Информация</string>
+    <string name="txtv_Info_Dialog">" "Это приложение моделирует \"жизнь\" клеток на поле. Если у клетки 2 или 3 соседа, то
+                                    клетка продолжает жить, иначе она умирает. Если у пустой клетки 3 соседа, то она оживает. \n
+                                    </string>
+    <string name="txtv_Info_Dialog_2">" "Разработчик: Д. О. Непряхин\n
+                                      Обратная связь: nervoidaz@yandex.ru
+                                    </string>
+</resources>

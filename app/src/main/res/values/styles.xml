@@ -1,0 +1,37 @@
+<!-- D. Nepryahin-->
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat" />
+
+    <style name="txtvInTableRow">
+        <item name="android:paddingRight">@dimen/txtvInTableRow_padding_right</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/txtv_text_size_mainact</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="edtxtInTableRow">
+        <item name="android:singleLine">true</item>
+        <item name="android:numeric">integer</item>
+    </style>
+
+    <style name="TableRow_mainact_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/tableRow_mainact_padding_bottom</item>
+    </style>
+
+    <style name="txtv_Dialog_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/txtv_text_size_dialogact</item>
+        <item name="android:layout_marginBottom">@dimen/txtv_margin_bottom_dialogact</item>
+    </style>
+
+    <style name="btn_Dialog_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/btn_Ok_dialog</item>
+    </style>
+</resources>
